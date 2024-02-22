@@ -5,6 +5,13 @@
 * Browsers: last 2 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
 /* fraunces-900 - latin */
 @font-face {
   font-display: swap;
@@ -153,9 +160,12 @@ img {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: center;
-  color: #333d4b;
+  color: #83888f;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+}
+.navbar-menu__link:hover {
+  color: #333d4b;
 }
 .hero {
   padding-bottom: 120px;
@@ -196,6 +206,9 @@ img {
   font-weight: 900;
   line-height: 25px;
   border-radius: 6px;
+}
+.hero__info-link:hover {
+  background-color: #66d2cf;
 }
 .coffee-types {
   padding-top: 60px;
@@ -417,6 +430,9 @@ img {
   font-weight: 700;
   line-height: 15px;
   letter-spacing: 0.923px;
+}
+.footer__item-link:hover {
+  color: #fefcf7;
 }
 .footer__img-list {
   margin-top: 48px;
